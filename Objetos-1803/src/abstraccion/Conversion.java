@@ -10,10 +10,8 @@ import java.util.Scanner;
  * @author T-101
  */
 public class Conversion {
-     public void convertir(){
-     Scanner grados=new Scanner(System.in);
-       float centigrados = grados.nextFloat();  
-       float farenheit = centigrados*1.8+32;
+     public float convertir(){
+       return farenheit = (centigrados*1.8+32);
      }
     
 }
