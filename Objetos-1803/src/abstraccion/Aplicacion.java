@@ -21,7 +21,7 @@ public class Aplicacion {
         m.setMetros(10);
         //Creando objeto para la clase conversion
         Conversion p= new Conversion();
-        p.getMetros(m);
+        p.getMetros();
         //Mostrando el resultado en pantalla
         System.out.println(p.metrosAPies());
     }
